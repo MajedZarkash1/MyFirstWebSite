@@ -3,7 +3,7 @@
 
 const button = document.querySelector("#content-buton");
 let content = document.querySelector("#content");
-let colors = ['brown', 'green', 'red', 'blue', 'white'];// this is a list  for changing the color //
+let colors = ['rgb(171, 171, 171)', 'rgb(252, 252, 252)', 'rgb(228, 235, 241)'];// this is a list  for changing the color //
 let currentcolorindex = 0;
 
 

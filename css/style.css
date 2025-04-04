@@ -13,21 +13,32 @@ body, html {
 
 .head {
     z-index: 0;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(0, 0, 0);
     grid-column: 1/ span 2;
     grid-row: 1;
     border-radius: 10px;
     text-align: center;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-head {
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.text-head:hover {
+    color: rgb(55, 84, 84);
 }
 
 .side {
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(0, 0, 0);
     grid-row: 2;
     grid-column: 1;
     text-align: center;
     border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
 }
 
 .list {
@@ -39,26 +50,33 @@ body, html {
 
 .list li {
     margin-bottom: 30px;
+   
 }
 
 #button {
-    background-color: rgb(208, 187, 171);
+    background-color: rgb(252, 252, 252);
     display: flex;
-    border: 5px;
+    border: 2px;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 5px;
+    color: black;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
 
 }
 
 #button:hover {
-    border-radius: 10px;
-    border-style: outset;
+    border-radius: 4px;
+    border-bottom-style: double;
+    color: rgb(45, 91, 82);
 }
 
 #content {
     background-color: gray;
     border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .heading-content {
@@ -66,6 +84,7 @@ body, html {
     margin-left: 20px;
     font-size: 50px;
     font-weight: bold;
+    text-align: center;
 }
 
 .footer {
@@ -77,9 +96,15 @@ body, html {
 
 #content-button {
     font-size: 15px;
-    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
     width: 250px;
     height: 100px;
+    border-radius: 50px;
+}
+
+#content-button:hover {
+    background: scroll;
 }
 
 #inputs {
@@ -133,7 +158,9 @@ body, html {
     margin: 50px;
 }
 
-
+.form {
+    margin-top: 40px;
+}
 
 
 
